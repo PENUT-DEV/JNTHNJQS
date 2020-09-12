@@ -93,6 +93,11 @@
     transition: transform 240ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transition-delay: 220ms;
 }
+
+.pushme .inner a{
+    text-decoration: none;
+}
+
 .pushme:active .inner, .pushme.click .inner {
     transform: translate3d(0, 0, 0);
     transition: transform 120ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -105,16 +110,6 @@
     left: 135px;
     text-align: center;
     transform: translate3d(-50%, -50%, 0);
-}
-.sig {
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 800;
-    font-family: sans-serif;
-    color: rgba(0, 0, 0, 0.4);
 }
 
 
