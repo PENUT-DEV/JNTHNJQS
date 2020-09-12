@@ -1,0 +1,210 @@
+/*GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/*
+ * Base structure
+ */
+
+ html,
+ body {
+   height: 100%;
+   background-color: white;
+ }
+
+ .page-one{
+    padding-left: 50px;
+ }
+
+ section{
+    width: 100%;
+    height: 800px;
+    background: url('img/me.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 18, 18, 0.9)
+  }
+  
+
+  #title{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 2pc;
+    font-size: 25px;
+  }
+  
+   #greet{
+       color: white;
+       font-family: 'Oswald', sans-serif;
+       padding-top: 15pc;
+     
+   }
+  
+   #name{
+      color: white;
+      font-family: 'Oswald', sans-serif;
+      padding-top: -1px;
+     
+      font-size: 80px;
+      
+  }
+
+  /*Animated Text*/
+  #messenger {
+    position: absolute;
+    top: 31pc;
+    background: -webkit-linear-gradient(right,#8A2387, #E94057,#F27121);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: monospace;
+    font-size: 23px;
+    white-space: nowrap;
+}
+
+  
+@media only screen and (max-width: 600px) {
+    #messenger{
+     top: 35pc;
+    }
+    #third_section_title h1{
+        text-align: center;
+    }
+    #title{
+        float: left;
+        padding-right: 2px;
+    }
+    
+  }
+
+
+/*Second Part*/
+#profile_section h1{
+    color: #ffffff;
+    padding-top: 1pc;
+    font-family: sans-serif;
+}
+
+#profile_section i{
+    color: #ffffff;
+    padding-top: 1pc;
+    font-family: sans-serif;
+}
+
+#profile{
+    height: 20pc;
+    width: 328px;
+    margin-top: 12pc;
+}
+
+
+#second-container{
+    background-color: #121212;
+    padding: 48px;
+}
+
+#about_me{
+    padding-top: 229px;
+}
+
+.vl{
+    border-left: 6px solid #27ae60;
+    height: 45px;
+}
+.vl h1{
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    padding-left: 10px;
+}
+#about_me p{
+    color: #ffffff;
+    padding-top: 2pc;
+}
+
+/*Skills section */
+#skills{
+    font-family: 'Oswald', sans-serif;
+    padding-top: 1pc;
+    color: #ffffff;
+}
+#skills ul{
+    padding-top: 1pc;
+    list-style: none;
+}
+#skills ul li{
+    padding-top: 2pc;
+}
+
+#profile_section{
+    margin-left: 21px;
+}
+
+
+/*Third Section*/
+#fourth_section{
+    background-color: #ffffff;
+    padding: 4pc;
+}
+#fourtht_section h1{
+    font-size: 74px;
+    font-family: sans-serif;
+}
+
+#list_of_work{
+    
+}   
+
+
+
+/*4th section*/
+
+#third_section{
+    background-color: #121212;
+    padding: 40px;
+}
+
+#third_section_title{
+    color: white;
+    padding-bottom: 3pc;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#IOT_section_title{
+    color: white;
+    padding-bottom: 3pc;
+    padding-top: 2pc;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*Contact*/
+
+#contact{
+    background-color: #282828;
+    padding: 1pc;
+}
+
+#contact p{
+    font-size: 23px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+#second_icons{
+   text-align: center;
+}
+
+#Stay_Con{
+    padding-bottom: 22px;
+    padding-top: 15px;
+}
