@@ -45,7 +45,7 @@
    #greet{
        color: white;
        font-family: 'Oswald', sans-serif;
-       padding-top: 15pc;
+       padding-top: 12pc;
      
    }
   
@@ -119,7 +119,7 @@
 
 @media only screen and (max-width: 600px) {
     #messenger{
-     top: 35pc;
+     top: 31pc;
     }
     #third_section_title h1{
         text-align: center;
